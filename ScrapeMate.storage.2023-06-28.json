@@ -1,0 +1,30 @@
+{
+  "_1687867113424": {
+    "title": "uz.tgstat.com/en/ratings/channels/public",
+    "fields": [
+      {
+        "name": "name",
+        "selector": ".font-16.mt-n1"
+      },
+      {
+        "name": "url",
+        "selector": ".col-lg-4 a"
+      },
+      {
+        "name": "subscribers",
+        "selector": ".pt-1:nth-child(1) .font-sm-18"
+      },
+      {
+        "name": "post_reach",
+        "selector": ".pt-1+ .pt-1 .font-sm-18"
+      },
+      {
+        "name": "citation_index",
+        "selector": ".pt-1~ .pt-1+ .pt-1 .font-sm-18"
+      }
+    ],
+    "urls": [
+      "https://uz.tgstat.com/en/ratings/channels/public?sort=ci"
+    ]
+  }
+}
